@@ -211,9 +211,9 @@
 
       <!-- Fotos - troque os links pelas fotos dos seus pais -->
       <div class="photos-container">
-        <img src="https://raw.githubusercontent.com/heasolxoi198/ateoinfinito/main/imagens/WhatsApp%20Image%202026-02-06%20at%2019.59.07%20(1).jpeg" alt="Nós dois - Foto 1" class="photo">
-        <img src="https://raw.githubusercontent.com/heasolxoi198/ateoinfinito/main/imagens/WhatsApp%20Image%202026-02-06%20at%2019.59.07%20(2).jpeg" alt="Nós dois - Foto 2" class="photo">
-        <img src="https://raw.githubusercontent.com/heasolxoi198/ateoinfinito/main/imagens/WhatsApp%20Image%202026-02-06%20at%2019.59.07.jpeg" alt="Nós dois - Foto 3" class="photo">
+        <img src="https://raw.githubusercontent.com/heasolxoi198/O-amor-dos-meus-pais/refs/heads/main/imagens/fotos1.jpeg" alt="Nós dois - Foto 1" class="photo">
+        <img src="https://raw.githubusercontent.com/heasolxoi198/O-amor-dos-meus-pais/refs/heads/main/imagens/fotos2.jpeg" alt="Nós dois - Foto 2" class="photo">
+        <img src="https://raw.githubusercontent.com/heasolxoi198/O-amor-dos-meus-pais/refs/heads/main/imagens/fotos3.jpeg" alt="Nós dois - Foto 3" class="photo">
       </div>
 
       <!-- Contador -->
