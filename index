@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Até o Infinito</title>
+  <title>Até o Infinito - Amor dos Meus Pais</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,700&family=Roboto:wght@300;400&display=swap');
     * {
@@ -120,17 +120,13 @@
       height: 480px;
       object-fit: cover;
       border-radius: 24px;
-      box-shadow:
-        0 0 20px rgba(255, 107, 157, 0.4),
-        inset 0 0 15px rgba(255, 107, 157, 0.2);
+      box-shadow: 0 0 20px rgba(255, 107, 157, 0.4), inset 0 0 15px rgba(255, 107, 157, 0.2);
       transition: transform 0.4s ease, box-shadow 0.4s ease;
       border: 2px solid rgba(255, 107, 157, 0.3);
     }
     .photo:hover {
       transform: scale(1.08);
-      box-shadow:
-        0 0 35px rgba(255, 107, 157, 0.7),
-        inset 0 0 20px rgba(255, 107, 157, 0.3);
+      box-shadow: 0 0 35px rgba(255, 107, 157, 0.7), inset 0 0 20px rgba(255, 107, 157, 0.3);
     }
     .timer-box {
       margin: 50px auto 60px;
@@ -193,50 +189,50 @@
     <button class="intro-button" onclick="enterSite()">Abrir nossa surpresa</button>
   </div>
 
-  <!-- Conteúdo principal (escondido no início) -->
+  <!-- Conteúdo principal -->
   <div id="main-content">
     <div class="stars" id="stars"></div>
     <div class="container">
       <h1>Até o Infinito</h1>
       <p class="subtitle">e mais um pouquinho além...</p>
 
-      <!-- Player Spotify - Amada Amante -->
+      <!-- Player Spotify - Roberto Carlos - Amada Amante -->
       <div class="music-player">
         <p class="music-title">Nossa música ❤️</p>
         <iframe style="border-radius:12px"
                 src="https://open.spotify.com/embed/track/14bPBtJWBCDi94klDcowfX?utm_source=generator"
-                width="100%" height="152" frameBorder="0"
+                width="100%" height="152" frameborder="0"
                 allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       </div>
 
-      <!-- Fotos - troque os links pelas fotos dos seus pais -->
+      <!-- Fotos - substitua pelos nomes reais das suas fotos na pasta imagens/ -->
       <div class="photos-container">
-        <img src="imagens/fotos1.jpeg" alt="Nossas fotos 1" class="photo">
-        <img src="imagens/fotos2.jpeg" alt="Nossas fotos 2" class="photo">
-        <img src="imagens/fotos3.jpeg" alt="Nossas fotos 3" class="photo">
+        <img src="imagens/foto1.jpg" alt="Foto 1 - Meus pais" class="photo">
+        <img src="imagens/foto2.jpg" alt="Foto 2 - Meus pais" class="photo">
+        <img src="imagens/foto3.jpg" alt="Foto 3 - Meus pais" class="photo">
       </div>
 
-      <!-- Contador -->
+      <!-- Contador desde 23/10/1993 -->
       <div class="timer-box">
-        <div class="timer-title">Eu te amo há exatamente:</div>
+        <div class="timer-title">Juntos há exatamente:</div>
         <div id="timer">Carregando... ❤️</div>
       </div>
 
-      <!-- Carta - adapte o texto se quiser -->
+      <!-- Carta - personalize o texto aqui -->
       <div class="letter">
         <p>Minha querida,</p>
-        <p>Desde 23 de outubro de 1993 você está comigo, transformando cada dia em algo especial.</p>
-        <p>Hoje celebramos mais de 32 anos de amor verdadeiro, cumplicidade, risadas, viagens, momentos difíceis que nos fortaleceram e uma conexão que só cresce.</p>
-        <p>Você é meu tudo: minha paz, meu sorriso, minha melhor amiga e o amor da minha vida.</p>
-        <p>Quero você não só por mais anos, mas pra sempre. Até o infinito e além!</p>
-        <p>Obrigado por cada segundo ao seu lado. Te amo demais.</p>
+        <p>Desde 23 de outubro de 1993, você está ao meu lado, transformando cada dia em algo inesquecível.</p>
+        <p>São mais de 32 anos de amor, cumplicidade, risadas, viagens, desafios superados juntos e uma conexão que só fica mais forte.</p>
+        <p>Você é minha paz, meu sorriso diário, minha melhor amiga e o maior amor da minha vida.</p>
+        <p>Quero você para sempre. Até o infinito e além!</p>
+        <p>Obrigado por cada momento. Te amo demais.</p>
         <br>
         <p style="font-size:1.4em; color:#ff6b9d;">
           Pra sempre seu,<br>
-          Seu amor ❤️
+          [Seu nome ou apelido] ❤️
         </p>
       </div>
-    
+
       <p style="margin-top:50px; font-size:1.1em; color:#ccc;">
         Desde 23/10/1993 • ∞ pela frente
       </p>
@@ -244,7 +240,7 @@
   </div>
 
   <script>
-    // Função para entrar no site
+    // Entrar no site
     function enterSite() {
       document.getElementById('intro-screen').classList.add('hidden');
       setTimeout(() => {
@@ -267,8 +263,8 @@
       starsContainer.appendChild(star);
     }
 
-    // Contador - início em 23/10/1993
-    const startDate = new Date(1993, 9, 23, 0, 0, 0); // mês 9 = outubro (0=jan, 9=out)
+    // Contador desde 23/10/1993
+    const startDate = new Date(1993, 9, 23, 0, 0, 0); // Mês 9 = outubro (0 = janeiro)
 
     function updateTimer() {
       const now = new Date();
