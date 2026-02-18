@@ -211,9 +211,9 @@
 
       <!-- Fotos - troque os links pelas fotos dos seus pais -->
       <div class="photos-container">
-        <img src="https://raw.githubusercontent.com/heasolxoi198/O-amor-dos-meus-pais/refs/heads/main/imagens/fotos1.jpeg" alt="Nós dois - Foto 1" class="photo">
-        <img src="https://raw.githubusercontent.com/heasolxoi198/O-amor-dos-meus-pais/refs/heads/main/imagens/fotos2.jpeg" alt="Nós dois - Foto 2" class="photo">
-        <img src="https://raw.githubusercontent.com/heasolxoi198/O-amor-dos-meus-pais/refs/heads/main/imagens/fotos3.jpeg" alt="Nós dois - Foto 3" class="photo">
+        <img src="imagens/fotos1.jpeg" alt="Nossas fotos 1" class="photo">
+        <img src="imagens/fotos2.jpeg" alt="Nossas fotos 2" class="photo">
+        <img src="imagens/fotos3.jpeg" alt="Nossas fotos 3" class="photo">
       </div>
 
       <!-- Contador -->
